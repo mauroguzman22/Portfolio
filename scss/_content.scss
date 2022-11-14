@@ -1,9 +1,18 @@
 @include media (desktop){
+
+#navFont{
+    font-family: $fontVariable;
+    color: antiquewhite;
+}    
     
 .logoImg{
     width: 100px;
     height: 100px;
     border-radius: 15%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    object-fit: contain;
+    list-style: none;
 }
 
 .contenedorInicio{
@@ -16,7 +25,7 @@
 
 .contenedorSection{
     font-family: $fontVariable;
-    font-size: $textMd;
+    font-size: $textLg;
     color: antiquewhite;
 
     p{

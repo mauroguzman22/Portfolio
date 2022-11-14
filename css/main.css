@@ -3,7 +3,6 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -12,10 +11,18 @@ body {
 }
 
 @media (min-width: 1200px) {
+  #navFont {
+    font-family: "Sono", sans-serif;
+    color: antiquewhite;
+  }
   .logoImg {
     width: 100px;
     height: 100px;
     border-radius: 15%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    object-fit: contain;
+    list-style: none;
   }
   .contenedorInicio {
     font-family: "Sono", sans-serif;
@@ -24,11 +31,39 @@ body {
   }
   .contenedorSection {
     font-family: "Sono", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: antiquewhite;
   }
   .contenedorSection p {
-    font-size: 0.8em;
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1200px) {
+  #navFont {
+    font-family: "Sono", sans-serif;
+    color: antiquewhite;
+  }
+  .logoImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    object-fit: contain;
+    list-style: none;
+  }
+  .contenedorInicio {
+    font-family: "Sono", sans-serif;
+    font-size: 1.5em;
+    color: antiquewhite;
+  }
+  .contenedorSection {
+    font-family: "Sono", sans-serif;
+    font-size: 1.5em;
+    color: antiquewhite;
+  }
+  .contenedorSection p {
+    font-size: 0.5em;
   }
 }
 @media (min-width: 720px) {
@@ -48,7 +83,7 @@ body {
     color: antiquewhite;
   }
   .contenedorSection p {
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 }
 @media (max-width: 720px) {
@@ -68,7 +103,27 @@ body {
     color: antiquewhite;
   }
   .contenedorSection p {
-    font-size: 0.8em;
+    font-size: 0.5em;
+  }
+}
+@media (min-width: 560px) {
+  .logoImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+  }
+  .contenedorInicio {
+    font-family: "Sono", sans-serif;
+    font-size: 1.5em;
+    color: antiquewhite;
+  }
+  .contenedorSection {
+    font-family: "Sono", sans-serif;
+    font-size: 1.2em;
+    color: antiquewhite;
+  }
+  .contenedorSection p {
+    font-size: 0.5em;
   }
 }
 @media (max-width: 560px) {
@@ -88,7 +143,7 @@ body {
     color: antiquewhite;
   }
   .contenedorSection p {
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 }
 

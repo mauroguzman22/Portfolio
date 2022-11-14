@@ -1,4 +1,12 @@
 @mixin media ($breakpoint){
+        
+    @if $breakpoint == mobile {
+        @media (min-width: 560px){
+            @content;
+        }
+    }
+
+
     @if $breakpoint == mobile {
         @media (max-width: 560px){
             @content;
@@ -25,6 +33,12 @@
             @content;
         }
     }
+    @if $breakpoint == desktop {
+        @media (max-width: 1200px){
+            @content;
+        }
+    }
+
 }
 
 // @include media (mobile, desktop o tablet)
