@@ -1,0 +1,80 @@
+@include media (desktop){
+    
+.logoImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.contenedorInicio{
+    font-family: $fontVariable;
+    font-size: $textLg;
+    color: antiquewhite;
+}
+
+
+
+.contenedorSection{
+    font-family: $fontVariable;
+    font-size: $textMd;
+    color: antiquewhite;
+
+    p{
+        font-size: $textSm;
+    }
+
+}
+  }
+
+@include media (tablet){
+
+    .logoImg{
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+    }
+    
+    .contenedorInicio{
+        font-family: $fontVariable;
+        font-size: $textLg;
+        color: antiquewhite;
+    }
+    
+    .contenedorSection{
+        font-family: $fontVariable;
+        font-size: $textMd;
+        color: antiquewhite;
+    
+        p{
+            font-size: $textSm;
+        }
+       }
+
+}
+
+
+@include media (mobile){
+
+    .logoImg{
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+    }
+    
+    .contenedorInicio{
+        font-family: $fontVariable;
+        font-size: $textLg;
+        color: antiquewhite;
+    }
+    
+    .contenedorSection{
+        font-family: $fontVariable;
+        font-size: $textMd;
+        color: antiquewhite;
+    
+        p{
+            font-size: $textSm;
+        }
+           }
+    
+}

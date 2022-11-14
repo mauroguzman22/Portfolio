@@ -5,9 +5,16 @@
         }
     }
 
-
     @if $breakpoint == tablet{
         @media (min-width: 720px){
+            @content;
+        }
+        
+    }    
+
+
+    @if $breakpoint == tablet{
+        @media (max-width: 720px){
             @content;
         }
         

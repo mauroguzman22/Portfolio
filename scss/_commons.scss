@@ -1,8 +1,13 @@
-$fontVariable:'Fasthand', cursive, 'Sono', sans-serif;
+$fontVariable: 'Sono', sans-serif;
 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     overflow-x:hidden;
+}
+
+body{
+    background: rgb(65,21,93);
+    background: linear-gradient(90deg, rgba(65,21,93,0.9366333691679797) 0%, rgba(9,9,153,1) 50%, rgba(60,25,85,0.9422356100643382) 100%);
 }
