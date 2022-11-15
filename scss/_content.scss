@@ -56,8 +56,16 @@
 
 @include media (tablet){
 
+    .imgProyectos{
+        width: 100% ;
+        height: 560px;
+        object-fit: contain;
+        border-radius: 15%;
+        float: center;
+    }
+
     .imgAnalista{
-        width: 450px;
+        width: 100%;
         height: auto;
         border-radius: 15%;
     }
@@ -99,12 +107,21 @@
 
 @include media (mobile){
 
+    .imgProyectos{
+        width: 100% ;
+        height: 560px;
+        object-fit: contain;
+        border-radius: 15%;
+        float: center;
+    }
 
     .imgAnalista{
-        width: 450px;
+        width: 100%;
         height: auto;
         border-radius: 15%;
     }
+
+
     
     #navFont{
         font-family: $fontVariable;
