@@ -1,10 +1,37 @@
 @include media (desktop){
 
+/* .boxBg{
+    background-color: rgb(74,66,153);
+}    
+ 
+.boxContainer{
+    transition: box-shadow .3s;
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: rgb(74,66,153);
+
+    div:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+    }
+}
+ */.imgAnalista{
+    width: 450px;
+    height: auto;
+    border-radius: 15%;
+}
 #navFont{
     font-family: $fontVariable;
     color: antiquewhite;
 }    
     
+.contenedorLogo{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+/*     opacity: 50%;
+ */}
 .logoImg{
     width: 100px;
     height: 100px;
@@ -37,12 +64,45 @@
 
 @include media (tablet){
 
+/*     .boxBg{
+        background-color: rgb(74,66,153);
+    }    
+     
+    .boxContainer{
+        transition: box-shadow .3s;
+        width: 100%;
+        height: auto;
+        border-radius:10px;
+        border: 1px solid #ccc;
+        background: rgb(74,66,153);
+    
+        div:hover{
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+ }    
+ */
+    .imgAnalista{
+        width: 450px;
+        height: auto;
+        border-radius: 15%;
+    }
+    
+    #navFont{
+        font-family: $fontVariable;
+        color: antiquewhite;
+    }    
+    
+
     .logoImg{
         width: 100px;
         height: 100px;
         border-radius: 15%;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        object-fit: contain;
+        list-style: none;
     }
-    
+        
     .contenedorInicio{
         font-family: $fontVariable;
         font-size: $textLg;
@@ -64,12 +124,46 @@
 
 @include media (mobile){
 
+/*     .boxBg{
+        background-color: rgb(74,66,153);
+    }    
+     
+    .boxContainer{
+        transition: box-shadow .3s;
+        width: 100%;
+        height: auto;
+        border-radius:10px;
+        border: 1px solid #ccc;
+        background: rgb(74,66,153);
+    
+        div:hover{
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+ }    
+ */
+
+    .imgAnalista{
+        width: 450px;
+        height: auto;
+        border-radius: 15%;
+    }
+    
+    #navFont{
+        font-family: $fontVariable;
+        color: antiquewhite;
+    }    
+    
+
     .logoImg{
         width: 100px;
         height: 100px;
         border-radius: 15%;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        object-fit: contain;
+        list-style: none;
     }
-    
+        
     .contenedorInicio{
         font-family: $fontVariable;
         font-size: $textLg;
@@ -78,11 +172,11 @@
     
     .contenedorSection{
         font-family: $fontVariable;
-        font-size: $textMd;
+        font-size: $textSm;
         color: antiquewhite;
     
         p{
-            font-size: $textSm;
+            font-size: $textMd;
         }
            }
     
